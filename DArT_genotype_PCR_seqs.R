@@ -5,7 +5,6 @@
 
 library(dplyr)
 library(tibble)
-setwd("~/repositories/DArT_SNP")
 
 
 # Import raw DArT data as a reference dataframe
