@@ -1,7 +1,11 @@
+# This code analyses the SNP data provided by DArT (derived from DNA samples supplied to them)
+# to determine how many distinct genotypes exist among the E.diaphana sea anemones maintained
+# at the University of Melbourne.
+
+
 library(ade4)
 library(adegenet)
 library(dartR)
-setwd("~/repositories/DArT_SNP")
 
 
 # Read files into a genlight object
