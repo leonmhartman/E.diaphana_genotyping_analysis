@@ -1,11 +1,9 @@
-# The purpose of this code is to identify SNP sequences that distinguish between
-# the four E.diaphana genotypes maintained at the University of Melbourne so that
-# they might be used in a PCR assay to identify the morphologically identical
-# animals.
+# The purpose of this code is to identify SNPs that are unique to each of the
+# four E.diaphana genotypes maintained at the University of Melbourne for use
+# in a PCR-based assay to distinguish the morphologically identical animals.
 
 library(dplyr)
 library(tibble)
-
 
 # Import raw DArT data as a reference dataframe
 # Hyphens have been recoded as NA to prevent SNP codes converting to factor levels
